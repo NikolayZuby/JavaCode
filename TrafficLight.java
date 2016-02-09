@@ -21,11 +21,11 @@ public class TrafficLight
     {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         double t = Double.parseDouble(reader.readLine());
-        if((t%5>=0)&&(t%5<3))
+        if((t % 5 >= 0) && (t % 5 < 3))
             System.out.println("зеленый");
-        if((t%5<4)&&(t%5>=3))
+        if((t % 5 < 4) && ( t % 5 >= 3))
             System.out.println("желтый");
-        if((t%5<5)&&(t%5>=4))
+        if((t % 5 < 5) && (t % 5 >= 4))
             System.out.println("красный");
 
     }
