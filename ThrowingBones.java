@@ -2,8 +2,6 @@ import java.util.Random;
 
 /**
  * Created by Николай on 01.02.2016.
- * Прогамма моделирующая броски кубиков на базе паттерна "Фабричный метод"
- * Program simulating dice pattern-based "Factory Method"
  *
  */
 
